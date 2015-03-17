@@ -14,7 +14,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- servlet & jsp & jstl -->
+		<!-- servlet & jsp & jstl
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -31,14 +31,15 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
-		</dependency>
+		</dependency> -->
 
-		<!-- JSR 356 -->
+		<!-- JSR 356 
 		<dependency>
 			<groupId>javax.websocket</groupId>
 			<artifactId>javax.websocket-api</artifactId>
 			<version>1.1</version>
 		</dependency>
+		-->
 		
 		<!-- Log -->
 		<dependency>
