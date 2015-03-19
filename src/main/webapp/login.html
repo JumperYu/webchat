@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var ws = new WebSocket("ws://localhost:8080/webchat/websocket/chat")
+	ws.onopen = function() {
+		console.log("connect");
+	}
+</script>
+</head>
+<body>
+	<form method="post" action="j_security_check">
+		<table>
+			<tr>
+				<th align="right">Username:</th>
+				<td align="left"><input type="text" name="j_username"></td>
+			</tr>
+			<tr>
+				<th align="right">Password:</th>
+				<td align="left"><input type="password" name="j_password"></td>
+			</tr>
+			<tr>
+				<td align="right"><input type="submit" value="Log In"></td>
+				<td align="left"><input type="reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
